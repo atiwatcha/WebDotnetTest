@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webdotnettest:
+    image: ${DOCKER_REGISTRY}webdotnettest
+    build:
+      context: .
+      dockerfile: WebDotnetTest/Dockerfile
